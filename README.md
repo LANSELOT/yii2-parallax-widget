@@ -32,4 +32,4 @@ Once the extension is installed, simply use it in your code by  :
     'image' => 'path/to/image.ext',
     'element' => '.class',
     'minHeight' => '400px',
-]); ?>```
+]); ?>
