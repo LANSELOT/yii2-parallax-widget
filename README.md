@@ -28,4 +28,8 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \lanselot\parallax\AutoloadExample::widget(); ?>```
+<?= \lanselot\parallax\ParallaxWidget::widget([
+    'image' => 'path/to/image.ext',
+    'element' => '.class',
+    'minHeight' => '400px',
+]); ?>```
